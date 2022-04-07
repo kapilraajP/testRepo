@@ -5,8 +5,7 @@ name: CI
 # Controls when the workflow will run
 on: [push]
 jobs:     
-  ballerina-hackathon-evaluator:      
-    name: Run Ballerina Hackathon Evaluator    
+  build:
     runs-on: ubuntu-latest       
     steps:    
     - name: Git checkout
