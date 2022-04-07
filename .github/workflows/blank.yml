@@ -29,4 +29,4 @@ jobs:
           JAVA_HOME: /usr/lib/jvm/default-jvm
           JAVA_OPTS: -DBALLERINA_DEV_COMPILE_BALLERINA_ORG=true 
     - name: Ballerina Run 
-      run: /home/runner/work/ballerina-2201.0.0/bin/bal run test.bal
+      run: /home/runner/work/testRepo/testRepo/ballerina-2201.0.0/bin/bal run test.bal
